@@ -11,7 +11,9 @@ public class teste {
 		int numero1 = in.nextInt();
 		System.out.println("Escreva o segundo número: ");
 		int numero2 = in.nextInt();
-		int soma = numero1 + numero2;
+		System.out.println("Escreva o terceiro número: ");
+		int numero3 = in.nextInt();
+		int soma = numero1 + numero2 + numero3;
 		System.out.println("A soma é: " + soma);
 		in.close();
 	}
